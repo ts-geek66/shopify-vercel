@@ -304,9 +304,6 @@ export async function getCollectionProducts({
     }
   });
 
-  console.log(res.body.data)
-
-
   if (!res.body.data.collection) {
     console.log(`No collection found for \`${collection}\``);
     return [];
