@@ -46,8 +46,7 @@ const cartFragment = /* GraphQL */ `
       }
     }
     totalQuantity
-  }
-  ${productFragment}
+  }${productFragment}
 `;
 
 export default cartFragment;

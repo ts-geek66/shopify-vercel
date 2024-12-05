@@ -14,8 +14,7 @@ const pageFragment = /* GraphQL */ `
       createdAt
       updatedAt
     }
-  }
-  ${seoFragment}
+  }${seoFragment}
 `;
 
 export const getPageQuery = /* GraphQL */ `
@@ -23,8 +22,7 @@ export const getPageQuery = /* GraphQL */ `
     pageByHandle(handle: $handle) {
       ...page
     }
-  }
-  ${pageFragment}
+  }${pageFragment}
 `;
 
 export const getPagesQuery = /* GraphQL */ `
@@ -36,6 +34,5 @@ export const getPagesQuery = /* GraphQL */ `
         }
       }
     }
-  }
-  ${pageFragment}
+  }${pageFragment}
 `;

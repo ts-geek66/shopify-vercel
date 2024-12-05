@@ -5,8 +5,7 @@ export const getProductQuery = /* GraphQL */ `
     product(handle: $handle) {
       ...product
     }
-  }
-  ${productFragment}
+  }${productFragment}
 `;
 
 export const getProductsQuery = /* GraphQL */ `
@@ -18,8 +17,7 @@ export const getProductsQuery = /* GraphQL */ `
         }
       }
     }
-  }
-  ${productFragment}
+  }${productFragment}
 `;
 
 export const getProductRecommendationsQuery = /* GraphQL */ `
@@ -27,6 +25,5 @@ export const getProductRecommendationsQuery = /* GraphQL */ `
     productRecommendations(productId: $productId) {
       ...product
     }
-  }
-  ${productFragment}
+  }${productFragment}
 `;

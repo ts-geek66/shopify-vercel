@@ -5,6 +5,5 @@ export const getCartQuery = /* GraphQL */ `
     cart(id: $cartId) {
       ...cart
     }
-  }
-  ${cartFragment}
+  }${cartFragment}
 `;

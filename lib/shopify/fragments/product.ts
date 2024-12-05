@@ -56,9 +56,7 @@ const productFragment = /* GraphQL */ `
     }
     tags
     updatedAt
-  }
-  ${imageFragment}
-  ${seoFragment}
+  }${imageFragment}${seoFragment}
 `;
 
 export default productFragment;

@@ -7,8 +7,7 @@ export const addToCartMutation = /* GraphQL */ `
         ...cart
       }
     }
-  }
-  ${cartFragment}
+  }${cartFragment}
 `;
 
 export const createCartMutation = /* GraphQL */ `
@@ -18,8 +17,7 @@ export const createCartMutation = /* GraphQL */ `
         ...cart
       }
     }
-  }
-  ${cartFragment}
+  }${cartFragment}
 `;
 
 export const editCartItemsMutation = /* GraphQL */ `
@@ -29,8 +27,7 @@ export const editCartItemsMutation = /* GraphQL */ `
         ...cart
       }
     }
-  }
-  ${cartFragment}
+  }${cartFragment}
 `;
 
 export const removeFromCartMutation = /* GraphQL */ `
@@ -40,6 +37,5 @@ export const removeFromCartMutation = /* GraphQL */ `
         ...cart
       }
     }
-  }
-  ${cartFragment}
+  }${cartFragment}
 `;
